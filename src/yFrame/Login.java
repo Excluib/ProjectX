@@ -152,7 +152,7 @@ public class Login extends javax.swing.JFrame {
     private void jlblCerrarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jlblCerrarMouseClicked
         try {
             int dialogButton = JOptionPane.YES_NO_OPTION;
-            int result = JOptionPane.showConfirmDialog(null, "Desea cerrar el sistema?", "EXIT", dialogButton);
+            int result = JOptionPane.showConfirmDialog(null, "¿Desea cerrar el sistema?", "EXIT", dialogButton);
             if (result == 0) {
                 System.exit(0);
             }
